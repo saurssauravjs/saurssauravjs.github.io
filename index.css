@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 100%;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    margin: 0;
+    font-size: 70px;
+    transition: font-size 1s;
+    
+}
+h1:hover{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 18px;
+    margin: 0;
+    transition: all 1s;
+}
+
+.social-network i{
+    font-size: 18px;
+    margin-right: 5px;
+    color: #676052;
+    transition:all 1s ;
+}
+
+.social-network i:hover{
+    font-size: 20px;
+    color: #000;
+}
+
+.fade{
+    opacity: 0;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    z-index: -1
+}
