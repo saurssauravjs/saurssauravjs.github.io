@@ -23,6 +23,7 @@ h1{
     margin: 0;
     font-size: 70px;
     transition: font-size 1s;
+    z-index: 9999
     
 }
 h1:hover{
@@ -40,6 +41,8 @@ h2{
     margin-right: 5px;
     color: #676052;
     transition:all 1s ;
+    z-index: 9999
+
 }
 
 .social-network i:hover{
@@ -54,5 +57,5 @@ h2{
 #particles-js{
     position: absolute;
     height: 100%;
-    z-index: -1
+   
 }
