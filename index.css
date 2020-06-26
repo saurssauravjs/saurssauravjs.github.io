@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 
@@ -18,6 +19,8 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100%;
+    width: 100%;
+
 }
 h1{
     margin: 0;
@@ -57,5 +60,7 @@ h2{
 #particles-js{
     position: absolute;
     height: 100%;
+    width: 100%;
+
    
 }
