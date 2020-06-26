@@ -44,8 +44,10 @@ h2{
     margin-right: 5px;
     color: #676052;
     transition:all 1s ;
-    z-index: 9999
 
+}
+.social-network{
+    z-index: 99999;
 }
 
 .social-network i:hover{
